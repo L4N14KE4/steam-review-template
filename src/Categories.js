@@ -51,7 +51,7 @@ export default function Categories(props) {
                     appendOption(option, selectedOptions.includes(option))
                 });
             } else {
-                localReviewString += "ERROR - bad category type. (radio | check)\n"
+                localReviewString += "ERROR - 잘못된 카테고리 유형입니다. (radio | check)\n"
             }
 
             // newline under every category
@@ -62,11 +62,11 @@ export default function Categories(props) {
         localReviewString += "\nGrab this review template here! 👉 https://vojtastruhar.github.io/steam-review-template/\n"
 
         navigator.clipboard.writeText(localReviewString).then(function () {
-            console.log('Async: Copying to clipboard was successful!');
-            setReviewInfo("The review has been copied into your clipboard!")
+            console.log('Async: 클립보드에 성공적으로 복사했어요!');
+            setReviewInfo("📋 리뷰 복사 완료!")
         }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-            setReviewInfo("Copying into clipboard failed. New window with the review should appear, please, copy it manually.")
+            console.error('Async: 복사실패: ', err);
+            setReviewInfo("클립보드에 복사하지 못했어요. 리뷰가 적힌 새 창이 나타나면 직접 복사해주세요.")
             check_review_in_new_window(localReviewString)
         });
     }
@@ -85,7 +85,7 @@ export default function Categories(props) {
             </div>
             <div className="button-centered">
                 <Button variant="contained" color="primary" onClick={generate_review}>
-                    Generate Steam Review
+                    스팀 리뷰 생성하기!
                 </Button>
                 {reviewInfo !== "" &&
                     <p className="review" >{reviewInfo}</p>

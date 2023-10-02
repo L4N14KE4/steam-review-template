@@ -1,17 +1,33 @@
 {
+    // https://steamcommunity.com/profiles/76561198115000090/recommended/1147560/
+    // https://steamcommunity.com/profiles/76561198004313879/recommended/1174180/
+
     "name": "Red Dead Redemption 2",
     "categories": [
         {
-            "title": "Graphics",
+            "title": "가격",
             "type": "radio",
             "options": [
-                "You forget what reality is",
-                "Beautiful",
-                "Good",
-                "Decent",
-                "Bad",
-                "Don‘t look too long at it",
-                "MS-DOS"
+                "정가 줘도 좋음",
+                "20% 세일까지 존버",
+                "50% 세일까지 존버",
+                "70% 이상 세일까지 존버",
+                "90% 이상 세일까지 존버",
+                "무료!",
+                "내가 오히려 돈을 받아야 하는 수준"
+            ]
+        },
+        {
+            "title": "그래픽",
+            "type": "radio",
+            "options": [
+                "현실 그 자체",
+                "아주 멋지고 감탄이 나옴",
+                "멋짐",
+                "괜찮음",
+                "못 봐줄 정도는 아님",
+                "끔찍함",
+                "눈 씻고 싶음"
             ]
         },
         {
@@ -27,15 +43,16 @@
             ]
         },
         {
-            "title": "Audio",
+            "title": "사운드",
             "type": "radio",
             "options": [
-                "Eargasm",
-                "Very good",
-                "Good",
-                "Not too bad",
-                "Bad",
-                "I'm now deaf"
+                "기저귀 갈아야 됨",
+                "찰짐",
+                "좋음",
+                "괜찮음",
+                "싫증남",
+                "구림",
+                "귀를 잘라내고 싶음"
             ]
         },
         {
@@ -49,43 +66,70 @@
             ]
         },
         {
-            "title": "PC Requirements",
+            "title": "사양",
             "type": "radio",
             "options": [
-                "Check if you can run paint",
-                "Potato",
-                "Decent",
-                "Fast",
-                "Rich boi",
-                "Ask NASA if they have a spare computer"
+                "슈퍼컴퓨터 필요함",
+                "초고사양 컴퓨터",
+                "고사양 컴퓨터",
+                "대중적인 컴퓨터",
+                "가정용 컴퓨터",
+                "노트북",
+                "스팀만 돌아가면 됨"
             ]
         },
         {
-            "title": "Difficulty",
+            "title": "한글화",
             "type": "radio",
             "options": [
-                "Just press 'W'",
-                "Easy",
-                "Easy to learn / Hard to master",
-                "Significant brain usage",
-                "Difficult",
-                "Dark Souls"
+                "초월번역",
+                "제대로 한글화가 되어있음",
+                "한글화가 되어있는데 애매함",
+                "유저 한글화",
+                "유저 한글화가 되어있는데 애매함",
+                "비한글화지만 지장 없음",
+                "비한글화로 플레이가 어려움"
             ]
         },
         {
-            "title": "Grind",
+            "title": "DLC",
             "type": "radio",
             "options": [
-                "Nothing to grind",
-                "Only if u care about leaderboards/ranks",
+                "없음",
+                "간단한 꾸밈 컨텐츠(사운드트랙)",
+                "확장판 수준의 컨텐츠 추가 DLC",
+                "유저 한글화",
+                "유저 한글화가 되어있는데 애매함",
+                "DLC가 본 게임"
+            ]
+        },
+        {
+            "title": "난이도",
+            "type": "radio",
+            "options": [
+                "사람이 할 짓이 아님",
+                "고인물 게임",
+                "적응되면 할만 함",
+                "난이도 조정 가능",
+                "켠김에 왕까지 문제 없음",
+                "우리 엄마도 가능",
+                "change this text"
+            ]
+        },
+        {
+            "title": "노가다",
+            "type": "radio",
+            "options": [
+                "필요 없음",
+                "필요한 부분만 하면 됨",
                 "Isn't necessary to progress",
                 "Average grind level",
-                "Too much grind",
-                "You'll need a second life for grinding"
+                "노가다를 많이 해야됨",
+                "노가다를 하지 않으면 아예 진행이 안됨"
             ]
         },
         {
-            "title": "Story",
+            "title": "스토리",
             "type": "radio",
             "options": [
                 "No Story",
@@ -97,41 +141,31 @@
             ]
         },
         {
-            "title": "Game Time",
+            "title": "플레이 타임",
             "type": "radio",
             "options": [
-                "Long enough for a cup of coffee",
-                "Short",
-                "Average",
-                "Long",
-                "To infinity and beyond"
+                "100시간 이상",
+                "50시간 이상",
+                "30시간 이상",
+                "10시간 이상",
+                "5시간",
+                "1시간 이하"
             ]
         },
         {
-            "title": "Price",
+            "title": "버그",
             "type": "radio",
             "options": [
-                "It's free!",
-                "Worth the price",
-                "If it's on sale",
-                "If u have some spare money left",
-                "Not recommended",
-                "You could also just burn your money"
+                "전혀 없음",
+                "1~2개 있음",
+                "눈에 띄나 플레이에 지장은 없음",
+                "꽤 많음",
+                "진행 불가",
+                "게임 자체가 버그 덩어리"
             ]
         },
         {
-            "title": "Bugs",
-            "type": "radio",
-            "options": [
-                "Never heard of",
-                "Minor bugs",
-                "Can get annoying",
-                "ARK: Survival Evolved",
-                "The game itself is a big terrarium for bugs"
-            ]
-        },
-        {
-            "title": "? / 10",
+            "title": "점수 ( ? / 10 )",
             "type": "radio",
             "options": [
                 "1",
